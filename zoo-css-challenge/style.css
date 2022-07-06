@@ -30,7 +30,7 @@ section {
 }
 
 img {
-  border: 5px solid #8075ff;
+  border: none;
 }
 
 h1,
@@ -38,9 +38,17 @@ h2,
 h3,
 h4,
 h5 {
-  /*Purple*/
-  color: #6320ee;
+  /*Purple changed to darker*/
+  color: #372772;
   margin-bottom: 1em;
+}
+
+.lighter-text {
+  color: #bbb;
+}
+
+.lighter-text:hover {
+  color: #fff;
 }
 
 h1 {
@@ -54,6 +62,17 @@ h2 {
 h3 {
   font-size: 150%;
 }
+
+p {
+  padding: 10px;
+  width: 90%;
+  line-height: 1.4;
+}
+.tiger-list {
+  line-height: 1.6;
+}
+
+
 
 button {
   display: inline-block;
@@ -76,6 +95,7 @@ footer {
 }
 
 .introduction {
+  background-color: #fff;
 }
 
 #badge {
@@ -102,10 +122,39 @@ footer {
   text-align: center;
   font-size: 125%;
 }
+/* 3 bear images  */
 
-.image-container img {
+.bears {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.image-container>img:nth-child(1n) {
+  grid-column: span 2;
   vertical-align: top;
-  border: 5px solid #747c92;
+  border: 5px solid #cfbd15;
+ margin: 5px; 
+}
+.image-container>img:nth-child(2n) {
+  grid-column: span 8;
+  vertical-align: top;
+  border: 5px solid #32ec51;
+  margin: 5px;
+  
+}
+
+.image-container>img:nth-child(3n) {
+  grid-column: span 2;
+  vertical-align: top;
+  border: 5px solid #ef6f6c;
+  margin: 5px;
+
 }
 
 .image-container img:first-of-type {

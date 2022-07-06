@@ -31,3 +31,7 @@
 body {
   font: 100% "Poppins", sans-serif;
 }
+
+card-q , card-a {
+  background-color: darkolivegreen;
+  }
