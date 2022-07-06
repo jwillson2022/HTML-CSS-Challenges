@@ -1,0 +1,64 @@
+
+
+body {
+    margin: auto;
+    background-color: rgb(188, 227, 243);
+}
+header {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form {
+
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5px;
+    padding: 20px;
+}
+
+
+label {
+    padding: 5px ;
+    font-weight: bold;
+}
+
+#email {
+    width: 250px;;
+}
+
+#size {
+    width: fit-content;
+}
+
+#deliver {
+
+    width: fit-content;
+}
+
+.button-sec {
+    align-content: center;
+    text-align: left;
+}
+
+.button-style {
+    background-color: blueviolet;
+    color: #fff;
+    width: 100px;
+    padding: 7px ;
+    margin: 10px;
+    border-radius: 7px;
+   
+    }
+
+.button-style:hover {
+    background-color: rgb(201, 177, 223);
+    color: #000;
+           }
+
+ footer {
+    padding: 10px;
+    margin: 5px;
+ }          
